@@ -24,6 +24,7 @@ Install dependencies via 'pip install -r requirements.txt'.
 Run the model via 'python final_model.py'.
 
 ### Problem Statement
+[Link to intro video](https://youtu.be/ASXXJacYLLs)
 Food security is a critical global challenge, particularly in developing countries like Indonesia, where food scarcity is exacerbated by ineffective agricultural practices and climate change. In Indonesia, millions rely on agriculture for their livelihoods, yet unsustainable practices, such as slash-and-burn land clearing, contribute to soil degradation, deforestation, and reduced crop yields, threatening food security. This situation leads to malnutrition, illness, and heightened vulnerability among affected populations. 
 
 To address these challenges, it is essential to focus on optimising crop yields through predictive models which assess factors such as annual precipitation, annual CO2 emissions and agricultural land use. These indicators can help farmers and policymakers better manage resources and predict future food needs. By analysing the relationship between environmental factors and agricultural productivity, this model aims to improve food distribution and support stable population growth in Indonesia, mitigating hunger and improving food security.
