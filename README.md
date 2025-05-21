@@ -17,6 +17,12 @@
 - Daryl Lim Jing Hng
   contributed to the report, video and website
 
+###Instructions
+Clone the repo.
+Ensure python is installed and activate the virtual environment via '.\.venv\Scripts\Activate.ps1'.
+Install dependencies via 'pip install -r requirements.txt'.
+Run the model via 'python final_model.py'.
+
 ### Problem Statement
 Food security is a critical global challenge, particularly in developing countries like Indonesia, where food scarcity is exacerbated by ineffective agricultural practices and climate change. In Indonesia, millions rely on agriculture for their livelihoods, yet unsustainable practices, such as slash-and-burn land clearing, contribute to soil degradation, deforestation, and reduced crop yields, threatening food security. This situation leads to malnutrition, illness, and heightened vulnerability among affected populations. 
 
