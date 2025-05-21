@@ -17,7 +17,7 @@
 - Daryl Lim Jing Hng
   contributed to the report, video and website
 
-###Instructions
+### Instructions
 Clone the repo.
 Ensure python is installed and activate the virtual environment via '.\.venv\Scripts\Activate.ps1'.
 Install dependencies via 'pip install -r requirements.txt'.
