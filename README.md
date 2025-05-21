@@ -18,13 +18,13 @@
   contributed to the report, video and website
 
 ### Instructions
-Clone the repo.
-Ensure python is installed and activate the virtual environment via '.\.venv\Scripts\Activate.ps1'.
-Install dependencies via 'pip install -r requirements.txt'.
-Run the model via 'python final_model.py'.
+Clone the repo.\
+Ensure python is installed and activate the virtual environment via '.\.venv\Scripts\Activate.ps1'.\
+Install dependencies via 'pip install -r requirements.txt'.\
+Run the model via 'python final_model.py'.\
 
 ### Problem Statement
-[Link to intro video](https://youtu.be/ASXXJacYLLs)
+[Link to intro video](https://youtu.be/ASXXJacYLLs)\
 Food security is a critical global challenge, particularly in developing countries like Indonesia, where food scarcity is exacerbated by ineffective agricultural practices and climate change. In Indonesia, millions rely on agriculture for their livelihoods, yet unsustainable practices, such as slash-and-burn land clearing, contribute to soil degradation, deforestation, and reduced crop yields, threatening food security. This situation leads to malnutrition, illness, and heightened vulnerability among affected populations. 
 
 To address these challenges, it is essential to focus on optimising crop yields through predictive models which assess factors such as annual precipitation, annual CO2 emissions and agricultural land use. These indicators can help farmers and policymakers better manage resources and predict future food needs. By analysing the relationship between environmental factors and agricultural productivity, this model aims to improve food distribution and support stable population growth in Indonesia, mitigating hunger and improving food security.
@@ -592,9 +592,11 @@ The new R^2 can account for about 95% of the variability in crop yield due to ma
 
 The new normalized RMSE would then be 0.0761 which means the model's errors account for approximately 7.6% of the total range of crop yield, which is very good.
 
-
 In conclusion, our analysis shows that CO2 emissions significantly influence cereal yield, while precipitation and farm machinery have weaker impacts. 
 
 These findings suggest a shift in focus toward addressing other factors such as fertilizer use, livestock quantity or soil quality.
 
 All in all, our model performs to a high degree of accuracy in predicting crop yields based on the input factors, allowing it to serve as a reliable tool in forecasting returns while also enabling our users to keep track and quantify their impact on the environment.
+
+### Note
+The web app code is not included in the repo, running the model will plot the scatter graph of the model's predicted crop yields against the actual crop yield (blue points are actual data points while orange points are the predicted data points), as well as print the R^2 score, Mean Squared Error and Pearson correlation between the predicted and actual values to showcase model accuracy.
